@@ -6,10 +6,10 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	
+
 <div class="container">
 			<nav class="navbar navbar-expand-sm navbar-white fixed-top bg-white">
-  <a class="navbar-brand text-muted mr-auto" href="#">Joblister</a>
+  <a class="navbar-brand text-muted mr-auto" href="#"><?php echo SITE_TITLE; ?></a>
 
     <ul class="navbar-nav ">
       <li class="nav-item active">
