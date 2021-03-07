@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
 
-      <div class="jumbotron">
+      <div class="jumbotron ">
         <h1>Find A Job</h1>
         <form method="GET" action="index.php">
         	<select class="form-control" name="category">
@@ -22,7 +22,7 @@
           <p><?php echo $job->description; ?></p>
         </div>
         <div class="col-md-2">
-        	<a href="#" class="btn btn-light">View</a>
+        	<a href="job.php?id=<?php echo $job->id; ?>" class="btn btn-light">View</a>
         </div>
      </div>
      <?php endforeach; ?>
