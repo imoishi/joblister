@@ -23,4 +23,6 @@
 </nav>
 <br>
 <hr>
+ <?php displayMessage(); ?>
+
       
