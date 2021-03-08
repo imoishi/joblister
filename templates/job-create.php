@@ -6,7 +6,7 @@
     		<input type="text" name="company" class="form-control">
     	</div>
     	<div class="form-group">
-    		<label>Company</label>
+    		<label>Category</label>
     		<select class="form-control" name="category">
     			<option value="0">Choose Category</option>
     			<?php foreach($categories as $category): ?>
